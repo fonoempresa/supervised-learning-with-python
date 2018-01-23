@@ -1,5 +1,5 @@
 # ml_classification
 
-###Supervised Learning -> Labels
+### Supervised Learning -> Labels
 
-###Unsupervised Learning -> No Labels
+### Unsupervised Learning -> No Labels
