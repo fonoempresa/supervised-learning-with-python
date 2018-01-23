@@ -1,5 +1,30 @@
 # ml_classification
 
-### Supervised Learning -> Labels
+### What is machine learning?
 
-### Unsupervised Learning -> No Labels
+
+### Unsupervised learning
+
+### Reinforcement learning
+
+### Supervised learning
+
+### Exploratory data analysis (EDA) - The Iris Dataset.
+
+**Features:**
+
+● Petal length
+
+● Petal width
+
+● Sepal length
+
+● Sepal width
+
+Target variable: Species
+
+● Versicolor
+
+● Virginica
+
+● Setosa
