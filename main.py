@@ -9,44 +9,37 @@ Target variable: Species
 ● Virginica
 ● Setosa
 """
-#import datasets from sklearn
+# import datasets from sklearn
 from sklearn import datasets
-
-#import pandas
 import pandas as pd
 
-#import matplotlib
-import matplotlib.pyplot as plt
-
-#choose a plotting style
-plt.style.use('ggplot')
-
-#load iris dataset
+# Loading IRIS dataset from scikit-learn object into iris variable.
 iris = datasets.load_iris()
 
-#prints the type/type object of iris
+# Prints the type/type object of iris
 print(type(iris))
+# <class 'sklearn.datasets.base.Bunch'>
 
-#prints the dictionary keys of iris data
+# prints the dictionary keys of iris data
 print(iris.keys())
 
-#prints the type/type object of given attributes
+# prints the type/type object of given attributes
 print(type(iris.data), type(iris.target))
 
-#prints the no of rows and columns in the dataset
+# prints the no of rows and columns in the dataset
 print(iris.data.shape)
 
-#prints the target set of the data
+# prints the target set of the data
 print(iris.target_names)
 
-#load iris dataset
+# Load iris training dataset
 X = iris.data
 
-#load iris target set
+# Load iris target set
 Y = iris.target
 
-#convert datasets' type into dataframe 
+# Convert datasets' type into dataframe
 df = pd.DataFrame(X, columns=iris.feature_names)
 
-#print the head elements of dataframe
+# Print the first five tuples of dataframe.
 print(df.head())
